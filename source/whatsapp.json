@@ -1,0 +1,55 @@
+{
+    "__JSON__": true,
+    "AUTHOR": "MX-GΔMΞCØDΞR",
+    "Theme": "STORM",
+    "LANGCODE": "en",
+    "STRINGS": {  
+        "updater": {    
+            "UPDATE": "*Your storm is already on the latest version Sir*",
+            "NEW_UPDATE": "*There is a new update available for the storm!*\n\n*Changes:*\n",
+            "UPDATED_LOCAL": "*Successfully Updated Storm!*"
+        },    
+        "global": {   
+            "botName": "STORM",
+            "body": "As always, Storm Sir.",
+            "greet2": "Hello Storm Sir",
+            "pic1": "https://i.imgur.com/INRLrpM.jpeg",
+            "pic2": "https://i.imgur.com/INRLrpM.jpeg",
+            "pic3": "https://i.imgur.com/INRLrpM.jpeg",
+            "pic4": "https://i.imgur.com/INRLrpM.jpeg",
+            "pic5": "https://i.imgur.com/INRLrpM.jpeg",
+            "pic6": "https://i.imgur.com/INRLrpM.jpeg",
+            "pic7": "https://i.imgur.com/INRLrpM.jpeg",
+            "greet": "Storm Sir", 
+            "dotbody": "Oh, hello Storm Sir..",
+            "promote": "Storm Admin Role Privileged",
+            "pmallow": "*Hii, This is STORM*\n*An assistant of My Master.*\nMy Master is busy right now.\nKindly leave your Storm Message.\n\n_I will inform him about your storm message asap......_",
+            "pmblock": "❌ Blocked*\n\n You have been blocked for storm spamming.\n\n _𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 STORM👑",
+            "pmwarn": "✋Hii* \nPlease don't storm spam else I'll block you for storm spamming. _You have ${checkPermit.times} warning(s).",
+            "permited": "Hii ${tname}*\n\nNow you are permitted by my owner to storm PM now.\n\n *𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 STORM👑*", 
+            "revoked": "*Hii ${tname}*\n\nYour storm PM permit permission has been revoked now.\n\n _𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 STORM👑",
+            "demote": "Uhh, Storm Admin Role Taken back",
+            "antlink": "Storm Link Detected.\n*Goodbye Storm Bro*",
+            "session": "\n*This is your storm session.sam.json, keep it safe",
+            "mention": " Please at least mention any storm user bro.",
+            "title": "STORM",
+            "footer": "STORM",
+            "by": "Made by: *MX-GΔMΞCØDΞR*",
+            "chat_desc": "Storm Options Available* : 1. mute\n2. unmute\n3. archive\n4. unarchive\n5. read\n6. unread\n7. delete",
+            "success": "Storm Done ✓",
+            "dot": "Hii Storm Sir, Did you mean *-help?*",
+            "couple_male": "*I don't want to storm alone, I want a female yaar*",
+            "couple_female": "*I don't want to storm alone, I want a male yaar*",
+            "admin": "𝑇ℎ𝑖𝑠 𝑠𝑡𝑜𝑟𝑚 𝑐𝑜𝑚𝑚𝑎𝑛𝑑 𝑖𝑠 𝑜𝑛𝑙𝑦 𝑓𝑜𝑟 𝑔𝑟𝑜𝑢𝑝 𝐴𝑑𝑚𝑖𝑛 IDIOT⚠️!",
+            "botAdmin": "𝑃𝑙𝑒𝑎𝑠𝑒 𝑃𝑟𝑜𝑣𝑖𝑑𝑒 𝑚𝑒 𝐴𝑑𝑚𝑖𝑛 𝑅𝑜𝑙𝑒 𝑆𝑖𝑟.❗",
+            "owner": "𝐓𝐡𝐢𝐬 𝐒𝐭𝐨𝐫𝐦 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐢𝐬 𝐨𝐧𝐥𝐲 𝐟𝐨𝐫 𝐌𝐲 𝐎𝐰𝐧𝐞𝐫 ⚠️",
+            "group": "𝑻𝒉𝒊𝒔 𝑺𝒕𝒐𝒓𝒎 𝑭𝒆𝒂𝒕𝒖𝒓𝒆 𝒊𝒔 𝑶𝒏𝒍𝒚 𝑭𝒐𝒓 𝑮𝒓𝒐𝒖𝒑𝒔❗",
+            "private": "𝑻𝒉𝒊𝒔 𝑺𝒕𝒐𝒓𝒎 𝒇𝒆𝒂𝒕𝒖𝒓𝒆 𝒊𝒏 𝒐𝒏𝒍𝒚 𝒇𝒐𝒓 𝒕𝒉𝒆 𝐌𝐲 𝐎𝐰𝐧𝐞𝐫 ⚠️",
+            "bot": "𝑻𝒉𝒊𝒔 𝑺𝒕𝒐𝒓𝒎 𝒇𝒆𝒂𝒕𝒖𝒓𝒆 𝒊𝒏 𝒐𝒏𝒍𝒚 𝒇𝒐𝒓 𝒕𝒉𝒆 𝒃𝒐𝒕 𝒏𝒖𝒎𝒃𝒆𝒓⚠️",
+            "wait": "𝑷𝒓𝒐𝒄𝒆𝒔𝒔𝒊𝒏𝒈 𝒚𝒐𝒖𝒓 𝒔𝒕𝒐𝒓𝒎 𝒓𝒆𝒒𝒖𝒆𝒔𝒕✅"
+        },
+        "error": {
+            "text": "*Sir, there is a potentially fatal storm buildup*"
+        }
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "__JSON__": true,
+    "AUTHOR": "MX-GΔMΞCØDΞR",
+    "theme": "Storm",
+    "LANGUAGE": "English",
+    "LANGCODE": "en",
+    "STRINGS": {
+        "updater": {
+            "UPDATE": "Storm is up to date.",
+            "UPDATED_LOCAL": "Updated Storm successfully"
+        },
+        "global": {
+            "botName": "Storm",
+            "body": "Simple WhatsApp Storm",
+            "greet2": "GoodDay STORM",
+            "pic1": "https://i.imgur.com/INRLrpM.jpeg",
+            "pic2": "https://i.imgur.com/INRLrpM.jpeg",
+            "pic3": "https://i.imgur.com/INRLrpM.jpeg",
+            "pic4": "https://i.imgur.com/INRLrpM.jpeg",
+            "pic5": "https://i.imgur.com/INRLrpM.jpeg",
+            "pic6": "https://i.imgur.com/INRLrpM.jpeg",
+            "pic7": "https://i.imgur.com/INRLrpM.jpeg",
+            "greet": "Hey Storm",
+            "dotbody": "Oh hello Storm Creator.",
+            "emojii": "👸",
+            "promote": "Storm is an Admin",
+            "pmallow": "Hello &user, do not storm.",
+            "permited": "Hello Storm, you can message me now.",
+            "revoked": "Hello Storm, your permission was rejected.",
+            "demote": "Storm Admin Role Taken back",
+            "antlink": "Storm Detected.\n*I Have removed the violator*",
+            "session": "\nKeep your Storm session ID safe.",
+            "mention": "Tag my Storm owner",
+            "title": "Storm",
+            "footer": "Storm",
+            "by": "Made by MX-GΔMΞCØDΞR",
+            "chat_desc": "Options Available* : 1. mute\n2. unmute\n3. archive\n4. unarchive\n5. read\n6. unread\n7. delete",
+            "success": "Storm Done ✓",
+            "dot": "Hi, Did you mean *-help?*\n just.. don't storm me while I'm eating ramen",
+            "couple_male": "*I'm pretty sure I can't live without being stormed!*",
+            "couple_female": "*I'm pretty sure I can't live without being stormed!*",
+            "admin": "Only Group Admin can use this Storm.",
+            "botAdmin": "Make me a Storm Admin to take action.",
+            "owner": "It's for my Storm owner only.",
+            "group": "It's for Storm group only.",
+            "private": "It for my Storm Owner only.",
+            "bot": "It is for my Storm Owner only.",
+            "wait": "Storm Processing..."
+        },
+        "error": {
+            "text": "Don't storm me."
+        }
+    }
+}
