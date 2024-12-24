@@ -46,8 +46,8 @@ smd({
        if(!isCreator) return message.reply(tlang().owner)
        let users = message.mentionedJid ? message.mentionedJid[0] : message.msg.contextInfo.participant || false;
        if(!users) return message.reply('Please give me user.')
-       const balance  = await eco.balance(users, "QUEEN_ALYA")
-       await eco.deduct(users, "QUEEN_ALYA", balance.wallet);
+       const balance  = await eco.balance(users, "VortexStorm")
+       await eco.deduct(users, "VortexStorm", balance.wallet);
        return await message.reply(`⛩️ User: @${users.split('@')[0]} \n *🧧 @${users.split('@')[0]} lost all 🪙 in wallet.*\n_Now live with that poverty.🫡_`,{mentions:[users]})
       }catch(e){message.error(`${e}\n\ncommand: resetwallet`,e)}
 }
@@ -85,8 +85,8 @@ async(message,match) => {
        case '100000':
        case '2':
        if (k < balance.wallet) return message.reply(`*You need to pay 🪙1000 to increase bank capacity ~ 100000 sp*`);
-         const deduct2 = await eco.deduct(user,"QUEEN_ALYA", 1000);
-         const add2 = eco.giveCapacity(user, "QUEEN_ALYA", 100000);
+         const deduct2 = await eco.deduct(user,"VortexStorm", 1000);
+         const add2 = eco.giveCapacity(user, "VortexStorm", 100000);
          return await message.reply(`*100000 🪙diamond storage has been added in ${message.pushName} bank*`)
 
 
@@ -95,8 +95,8 @@ async(message,match) => {
        case '10000000':
        case '3':
        if (k < balance.wallet) return message.reply(`You need to pay 🪙10000 to increase bank capacity ~ 1000 sp`);
-          const deduct3 = await eco.deduct(user, "QUEEN_NIKKA", 10000);
-          const add3 = eco.giveCapacity(user, "QUEEN_NIKKA", 10000000);
+          const deduct3 = await eco.deduct(user, "VortexStorm", 10000);
+          const add3 = eco.giveCapacity(user, "VortexStorm", 10000000);
           return await message.reply(`*10000000 🪙diamond storage has been added in ${message.pushName}\'s bank*`)
 
 

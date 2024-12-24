@@ -11,7 +11,7 @@ smd({
   filename: __filename
 }, async (message) => {
   try {
-    const response = await axios.get("https://api.github.com/repos/hakisolos/Nikka-v3.2");
+    const response = await axios.get("https://api.github.com/repos/mxgamecoder/VortexStorm");
     const repoData = response.data;
 
     let replyMessage = `**🍀WhatsApp Bot Repository Info**\n\n`;
@@ -22,7 +22,7 @@ smd({
     replyMessage += `**🍀Watchers:** ${repoData.watchers_count}\n`;
     replyMessage += `**🍀Open Issues:** ${repoData.open_issues_count}\n`;
     replyMessage += `**🍀License:** ${repoData.license ? repoData.license.name : 'No License'}\n`;
-    replyMessage += `**🍀Repository URL:** (https://github.com/hakisolos/Nikka-v3.2)\n`;
+    replyMessage += `**🍀Repository URL:** (https://github.com/mxgamecoder/VortexStorm)\n`;
 
     await message.send(replyMessage);
   } catch (error) {

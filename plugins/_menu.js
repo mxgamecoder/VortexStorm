@@ -1,5 +1,5 @@
 function hi() {
-  console.log("Hello World!");
+  console.log("Hello 🌎");
 }
 hi();
 const os = require('os');
@@ -46,7 +46,7 @@ astro_patch.smd({
 
     // Classy menu content
     let menuContent = `✨ *${Config.botname}* ✨\n`;
-    menuContent += `👑 *Owner Name:* KING HAKI 🗿\n`;
+    menuContent += `👑 *Owner Name:* 🤔 LOST 🤔\n`;
     menuContent += `💻 *Uptime:* ${runtime(process.uptime())}\n`;
     menuContent += `🤖 *RAM Usage:* ${formatp(os.totalmem() - os.freemem())}\n`;
     menuContent += `📅 *Date:* ${currentDate}\n`;
@@ -59,17 +59,17 @@ astro_patch.smd({
     for (const category in commandCategories) {
       menuContent += `✿❯─「✿ ${tiny(category)} ✿」─❮✿\n`; // Decorative line with category inside
       commandCategories[category].forEach(cmd => {
-        menuContent += `|👑|  ${fancytext(cmd, 1)}\n`; // Changed emoji here
+        menuContent += `|🌊|  ${fancytext(cmd, 1)}\n`; // Changed emoji here
       });
       menuContent += `👇👇👇👇\n${readmore}\n\n`; // Adding readmore with 👇 after each category
     }
 
     // Prepare the final message content
-    const finalMessage = menuContent + `\n𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙷 𝙻𝙾𝚅𝙴 *${Config.botname}*!\n©𝙷𝙰𝙺𝙸`;
+    const finalMessage = menuContent + `\nPOWERED BY *${Config.botname}*!\n©MX-GΔMΞCØDΞR`;
 
     // Send the image with the menu
     await context.send(
-      "https://files.catbox.moe/bh2fpj.jpg", // Replace with your image URL
+      "https://i.imgur.com/INRLrpM.jpeg", // Replace with your image URL
       { caption: finalMessage },
       "img",
       message

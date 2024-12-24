@@ -1,4 +1,4 @@
-//asta de los campos de la
+//THE THIEF KING 👑
 let {
   runtime,
   formatp,
@@ -48,13 +48,13 @@ _Note: Sometimes data will be reset when the bot restarts!_
 *USERNAME 👉 MESSAGE COUNT(s)*
 ${_0x338160}
 
-🔰 *𝙉𝙄𝙆𝙆𝘼 𝘽𝙊𝙏𝙕 ⁱⁿᶜ* 🔰`.trim();
+🔰 *𝙑𝙊𝙍𝙏𝙀𝙓𝙎𝙏𝙊𝙍𝙈 ⁱⁿᶜ* 🔰`.trim();
     
     await _0x1cec94.send(_0x370694, {
       contextInfo: {
         ...(await _0x1cec94.bot.contextInfo("ACTIVE USERS", _0x1cec94.senderName))
       }
-    }, "asta", _0x1cec94);
+    }, "storm", _0x1cec94);
   } catch (_0x225db9) {
     console.log({ e: _0x225db9 });
   }
@@ -204,12 +204,12 @@ smd({
         edit: _0x2d7cf6
       }, "asta", _0x4e7c63);
     } catch (_0x28ce7e) {}
-    let _0x50f17a = " *👸 QUEEN NIKKA- ＢＯＴ ＦＥＡＴＵＲＥ*\n\n\n  ◦ _Total Features 👉 " + _0x4cf8ed + "_\n  \n*◦ BOT FEATURES*\n\n      Plugins 👉 " + Object.values(_0x4de967.commands).filter(_0x54d4bf => _0x54d4bf.pattern).length + "_\n      _Msg Listener 👉 " + Object.values(_0x4de967.commands).filter(_0x2376a3 => _0x2376a3.on).length + "_\n      _Call Listener 👉 " + Object.values(_0x4de967.commands).filter(_0x54a19b => _0x54a19b.call).length + "_\n      _Group Listener 👉 " + Object.values(_0x4de967.commands).filter(_0x35381c => _0x35381c.group).length + "_\n  \n\n" + Config.caption;
+    let _0x50f17a = " *🌊 𝙎𝙏𝙊𝙍𝙈- ＢＯＴ ＦＥＡＴＵＲＥ*\n\n\n  ◦ _Total Features 👉 " + _0x4cf8ed + "_\n  \n*◦ BOT FEATURES*\n\n      Plugins 👉 " + Object.values(_0x4de967.commands).filter(_0x54d4bf => _0x54d4bf.pattern).length + "_\n      _Msg Listener 👉 " + Object.values(_0x4de967.commands).filter(_0x2376a3 => _0x2376a3.on).length + "_\n      _Call Listener 👉 " + Object.values(_0x4de967.commands).filter(_0x54a19b => _0x54a19b.call).length + "_\n      _Group Listener 👉 " + Object.values(_0x4de967.commands).filter(_0x35381c => _0x35381c.group).length + "_\n  \n\n" + Config.caption;
     await _0x4e7c63.bot.relayMessage(_0x4e7c63.chat, {
       requestPaymentMessage: {
         currencyCodeIso4217: "PK",
         amount1000: _0x4cf8ed * 1000,
-        requestFrom: "2348039607375@s.whatsapp.net",
+        requestFrom: "2349021506036@s.whatsapp.net",
         noteMessage: {
           extendedTextMessage: {
             text: _0x50f17a,
@@ -260,12 +260,12 @@ smd({
 
 ╰━━━━━━━━━━━━━━━━━━━━━━━╯
 
-👑 *𝙉𝙄𝙆𝙆𝘼 𝘽𝙊𝙏𝙕 ⁱⁿᶜ* 👑
+🌊 *𝙑𝙊𝙍𝙏𝙀𝙓𝙎𝙏𝙊𝙍𝙈 ⁱⁿᶜ* 🌊
   _Your trusty character checker!_
   `;
 
   await _0x2a677e.send(
-    "https://files.catbox.moe/bh2fpj.jpg", // Replace with your desired image URL
+    "https://i.imgur.com/INRLrpM.jpeg", // Replace with your desired image URL
     { caption: _0x3b31ed, mentions: [_0x32c078] },
     "img",
     _0x2a677e
@@ -426,7 +426,7 @@ smd({
   try {
     let _0x587b99 = _0x41dfb5.split(" ")[0].trim();
     if (!_0x587b99) {
-      return await _0x4cdec8.reply("*Need URL! Use " + prefix + "ss https://github.com/STAR-KING0/QUEEN_ALYA*");
+      return await _0x4cdec8.reply("*Need URL! Use " + prefix + "ss https://github.com/mxgamecoder/VortexStorm*");
     }
     let _0x358290 = await ssweb(_0x587b99);
     if (_0x358290 && _0x358290.status == "200") {
@@ -440,7 +440,7 @@ smd({
     await _0x4cdec8.error(_0x126b07 + "\n\ncommand : myip", _0x126b07, "*Request Denied!*");
   }
 });
-let tmpUrl = "https://telegra.ph/file/b8e96b599e0fa54d25940.jpg";
+let tmpUrl = "https://i.imgur.com/INRLrpM.jpeg";
 const secmailData = {};
 smd({
   pattern: "tempmail",
@@ -649,7 +649,7 @@ smd({
 
     // Send the image along with the final message
     await message.send(
-      "https://files.catbox.moe/bh2fpj.jpg", // Replace with your image URL
+      "https://i.imgur.com/INRLrpM.jpeg", // Replace with your image URL
       { caption: finalMessage },
       "img",
       message

@@ -70,7 +70,7 @@ const path = require ("path");
 *Followers:* ${followers}
 *Following:* ${following}
 
-\t*Queen_NIKKA IG STALKER*
+\t*VortexStorm IG STALKER*
 `;
 
       await m.bot.sendFromUrl(m.from, photo_profile, caption, m, {}, "image");
@@ -536,7 +536,7 @@ smd(
 
       if (!repoUrl) {
         return await _0x1ae8f8.reply(
-          "*Provide Repo URL, e.g., .git https://github.com/STAR-KING0/Queen_NIKKA_*"
+          "*Provide Repo URL, e.g., .git https://github.com/mxgamecoder/VortexStorm_*"
         );
       }
 
@@ -592,7 +592,7 @@ smd(
    try {
      let _0x204f81 = _0x55aba2.reply_text ? _0x55aba2.reply_text : _0x56da6b;
      if (!_0x204f81) {
-       return _0x55aba2.reply("*_Example : .tts Hi,I am Queen_NIKKA-Md whatsapp bot._*");
+       return _0x55aba2.reply("*_Example : .tts Hi,I am VortexStorm whatsapp bot._*");
      }
      try {
        let _0x1974d5 = _0x56da6b ? _0x56da6b.split(" ")[0].toLowerCase() : "en";
@@ -607,7 +607,7 @@ smd(
          },
          mimetype: "audio/mpeg",
          ptt: true,
-         fileName: "Queen_NIKKA-Md-tts.m4a"
+         fileName: "VortexStorm-tts.m4a"
        }, {
          quoted: _0x55aba2
        });
@@ -623,7 +623,7 @@ smd(
          },
          mimetype: "audio/mpeg",
          ptt: true,
-         fileName: "Queen_NIKKA-Md-tts.m4a"
+         fileName: "VortexStorm-tts.m4a"
        }, {
          quoted: _0x55aba2
        });
@@ -634,7 +634,7 @@ smd(
  });
  smd({
    pattern: "sound",
-    alias: ["NIKKAi", "aine","mentalism","alive","waso"],
+    alias: ["VortexStorm", "aine","mentalism","alive","waso"],
    desc: "Downloads ringtone.",
    category: "downloader",
    filename: __filename,
@@ -655,7 +655,7 @@ smd(
      };
      let _0x4737bb = {
        audio: _0x2ba501,
-       fileName: "NIKKA-Md tiktok Sound" + _0x19c223 + ".m4a",
+       fileName: "VortexStorm tiktok Sound" + _0x19c223 + ".m4a",
        mimetype: "audio/mpeg",
        ptt: true,
        contextInfo: _0x29fdd9
@@ -886,7 +886,7 @@ smd({
      try {
        let _0x32b31a = await ytdl.getInfo(_0x1d542b[0]);
        _0x43c5ac = _0x32b31a.videoDetails.title;
-       let _0x4b47c3 = "./temp/NIKKA-Md " + _0x1d542b[1] + ".mp3";
+       let _0x4b47c3 = "./temp/VortexStorm " + _0x1d542b[1] + ".mp3";
        const _0x212389 = ytdl(_0x1d542b[0], {
          filter: _0xd2371a => _0xd2371a.audioBitrate == 160 || _0xd2371a.audioBitrate == 128
        }).pipe(fs.createWriteStream(_0x4b47c3));
@@ -1111,16 +1111,16 @@ smd({
   try {
     const azaMessage = `
 ￣￣￣￣￣￣￣￣￣￣￣￣￣|
-        *6718656033*
-         *MONIEPOINT*
-        *EXCEL MAXEELL-UGIAGBE*
+        *🤔*
+         *🤔*
+        *🤔*
 |＿＿＿＿＿＿＿＿＿＿＿＿＿|
                    
     `;
 
     // Use the method to send the image with the caption
     await m.send(
-      "https://d.uguu.se/aEVUlhuR.jpg", // Image URL
+      "https://i.imgur.com/INRLrpM.jpeg", // Image URL
       { caption: azaMessage }, // Caption with account info
       "img", // Type of message
       m // Reference to the original message
@@ -1160,10 +1160,10 @@ smd(
       const reference = `${query}`; // This will be used as the subtitle (chapter/verse)
       
       // Structuring the message with reduced space
-      const message = `╔════N═I═K═K═A════════🍀\n` +
+      const message = `╔════𝙑𝙊𝙍𝙏𝙀𝙓𝙎𝙏𝙊𝙍𝙈════════🍀\n` +
                       `║ *🛐Content:* ${verse.trim()}\n` +  // trim() removes any unnecessary whitespace
                       `║ *✨Reference:* ${reference}\n` +
-                      `║ *✨powered By Queen Nikka\n` +
+                      `║ *✨powered By VortexStorm\n` +
                       `╚═════N═I═K═K═A════🍀`;
 
       await m.send(message);

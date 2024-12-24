@@ -31,14 +31,14 @@ smd(
 
 ╰━━━━━━━━━━━━━━━━━━━━━━━╯
 
-╭═•|✿| *𝙉𝙄𝙆𝙆𝘼 𝘽𝙊𝙏𝙕 ⁱⁿᶜ* |✿|•═╮
-      🔰 *reliable bot company by haki* 🔰
+╭═•|✿| *𝙑𝙊𝙍𝙏𝙀𝙓𝙎𝙏𝙊𝙍𝙈 ⁱⁿᶜ* |✿|•═╮
+      🔰 *reliable bot company by MX-GΔMΞCØDΞR* 🔰
 ╰════════════════════════╯
       `;
 
       // Send the image with the more styled latency and uptime message as a caption
       await m.send(
-        "https://files.catbox.moe/bh2fpj.jpg", // Replace with your image URL
+        "https://i.imgur.com/INRLrpM.jpeg", // Replace with your image URL
         { caption: finalMessage },
         "img",
         m
@@ -87,7 +87,7 @@ smd({
      var _0x17ca33 = ("*LIST OF COMMANDS USED TODAY!*\n_Note: Data will be reset when bot restart!_\n\n*Total Users: _" + _0x38bc51.length + "_*\n*Total Command Used: _" + commandHistory.length + "_*\n\n" + _0x5513e2 + "\n\n" + Config.caption).trim();
 
      // Add your image URL here
-     const imageUrl = "https://files.catbox.moe/bh2fpj.jpg"; // Replace with your image URL
+     const imageUrl = "https://i.imgur.com/INRLrpM.jpeg"; // Replace with your image URL
 
      await _0x297641.send(
        imageUrl,

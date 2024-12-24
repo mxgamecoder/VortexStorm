@@ -15,7 +15,7 @@ function runtime(seconds) {
 smd(
   {
     pattern: "alive", // Command trigger
-    react: "👸", // Reaction when the command is run
+    react: "🌊", // Reaction when the command is run
     desc: "Check bot's status, speed, and latency", // Command description
     category: "misc", // Command category
     filename: __filename, // Filename reference
@@ -30,16 +30,16 @@ smd(
 
     // Final message with latency and speed
     const finalMessage = `
-👸 *Queen Nikka is Alive!*
+🌊 *VortexStorm is Alive!*
 
 *Latency:* ${latency}ms
 *Speed:* As swift as royalty 🚀
 
-*=== |🍀| Powered by HAKI |🍀| ===*
+*=== |🍀| Powered by MX-GΔMΞCØDΞR |🍀| ===*
     `;
 
     // Image to be included with the message
-    const imageUrl = "https://files.catbox.moe/bh2fpj.jpg"; // Replace with your actual image URL
+    const imageUrl = "https://i.imgur.com/INRLrpM.jpeg"; // Replace with your actual image URL
 
     // Send the image with the final message as caption
     await message.send(imageUrl, { caption: finalMessage }, "img", message);
@@ -55,25 +55,25 @@ smd(
   },
   async (message) => {
     const owner = "HAKI"; // Owner name
-    const repoLink = "https://github.com/hakisolos/Nikka-v3.2"; // Repository link
+    const repoLink = "https://github.com/mxgamecoder/VortexStorm"; // Repository link
     const uptime = runtime(process.uptime()); // Get bot uptime
-    const footer = "=== |🍀| Powered by HAKI |🍀| ===";
+    const footer = "=== |🍀| Powered by MX-GΔMΞCØDΞR |🍀| ===";
 
     // Final message content
     const finalMessage = `
-👸 *Queen Nikka MD*
+🌊 *𝙑𝙊𝙍𝙏𝙀𝙓𝙎𝙏𝙊𝙍𝙈*
 
 *Owner:* ${owner}
 *Repository:* ${repoLink}
 *Bot Uptime:* ${uptime}
 
-*LONG LIVE THE QUEEN 👸*
+*🌊 𝙎𝙏𝙊𝙍𝙈 🌊*
 
 ${footer}
 `;
 
     // Image to be included with the message
-    const imageUrl = "https://files.catbox.moe/bh2fpj.jpg"; // Replace with your actual image URL
+    const imageUrl = "https://i.imgur.com/INRLrpM.jpeg"; // Replace with your actual image URL
 
     // Send the image with the final message as caption
     await message.send(imageUrl, { caption: finalMessage }, "img", message);
@@ -89,12 +89,12 @@ smd(
     filename: __filename, // Filename reference
   },
   async (message) => {
-    const name = "*Haki 🗿*";
+    const name = "*MX-GΔMΞCØDΞR*";
     const age = "*18*";
     const occupation = "*Front-end Web Developer*";
     const hobby = "*Coding*";
-    const contact = "*https://wa.me/9112171078*";
-    const footer = "*=|🍀| Powered by HAKI |🍀|=*";
+    const contact = "*https://wa.me/2349021506036*";
+    const footer = "*=|🍀| Powered by MX-GΔMΞCØDΞR |🍀|=*";
 
     // Message content
     const finalMessage = `
@@ -110,7 +110,7 @@ ${footer}
     `;
 
     // Image to be included with the message
-    const imageUrl = "https://d.uguu.se/aEVUlhuR.jpg"; // Replace with your actual image URL
+    const imageUrl = "https://i.imgur.com/INRLrpM.jpeg"; // Replace with your actual image URL
 
     // Send the image with the final message as caption
     await message.send(imageUrl, { caption: finalMessage }, "img", message);

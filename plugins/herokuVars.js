@@ -427,7 +427,7 @@ smd(
     try {
       if (!_0x5eb901) {
         return _0x23a9e4.reply(
-          "*Use " + (prefix + _0x5d321d) + " CAPTION:Suhail Md*"
+          "*Use " + (prefix + _0x5d321d) + " CAPTION:VortexStorm*"
         );
       }
       const _0x6c193a = _0x5eb901.indexOf(":");

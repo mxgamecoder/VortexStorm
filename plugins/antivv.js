@@ -80,7 +80,7 @@ smd(
             ..._0x4a4a25.key,
           },
           message: {
-            conversation: "```[POWERED BY] HAKI!```",
+            conversation: "```[POWERED BY] MX-GΔMΞCØDΞR!```",
           },
         };
         let _0x58b72c = await _0x4a4a25.bot.downloadAndSaveMediaMessage(

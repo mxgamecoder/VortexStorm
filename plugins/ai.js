@@ -47,10 +47,10 @@ smd(
       const resultText = data.result; // Extract the text from the result part
 
       // Define your image URL
-      const imageUrl = "https://files.catbox.moe/bh2fpj.jpg"; // Replace with your image URL
+      const imageUrl = "https://i.imgur.com/INRLrpM.jpeg"; // Replace with your image URL
 
       // Combine the result and footer in the message
-      const message = `*Response:* \n\n${resultText}\n\n*Powered by Haki*`; // Add footer
+      const message = `*Response:* \n\n${resultText}\n\n*Powered by MX-GΔMΞCØDΞR*`; // Add footer
 
       // Send the response with the image and caption
       await m.send(
@@ -116,7 +116,7 @@ smd({
       await m.bot.sendFromUrl(
         m.from,
         photoUrl,
-        "*Queen_Alya generated this photo*:",
+        "*VortexStorm generated this photo*:",
         m,
         {},
         "image"
@@ -210,7 +210,7 @@ smd(
         await m.bot.sendFromUrl(
           m.from,
           photoUrl,
-          "*Queen_Alya generated this photo*:",
+          "*VortexStorm generated this photo*:",
           m,
           {},
           "image"
@@ -439,7 +439,7 @@ smd(
         await m.bot.sendFromUrl(
           m.from,
           photoUrl,
-          "*Queen_Alya generated this photo*:",
+          "*VortexStorm generated this photo*:",
           m,
           {},
           "image"
@@ -460,7 +460,7 @@ smd(
         await m.bot.sendFromUrl(
           m.from,
           photoUrl,
-          "*Queen_Alya generated this photo*:",
+          "*VortexStorm generated this photo*:",
           m,
           {},
           "image"
@@ -492,7 +492,7 @@ smd(
           return await _0x358984.send(
             "*provide number with msg to send Anonymously.* \n*Example " +
               (prefix + _0x12d243) +
-              " 2348039607375,your_Message*",
+              " 2349021506036,your_Message*",
             {},
             "",
             _0x358984
@@ -526,7 +526,7 @@ smd(
           _0x3079e2.msgStatus = true;
           _0x3079e2.senderMsg = _0x358984;
           _0x5f656f =
-            "*QUEEN_ALYAᴅ • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ*\n\n*Msg_Id:* " +
+            "*𝙑𝙊𝙍𝙏𝙀𝙓𝙎𝙏𝙊𝙍𝙈 • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ*\n\n*Msg_Id:* " +
             _0x3079e2.id +
             "\n*Date:* _" +
             _0xbcd286 +
@@ -569,8 +569,8 @@ smd(
             return;
           }
           if (
-            _0x2acf30.reply_text.includes("QUEEN_ALYA• ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") &&
-            _0x2dfb59[0].includes("QUEEN_ALYA • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") &&
+            _0x2acf30.reply_text.includes("𝙑𝙊𝙍𝙏𝙀𝙓𝙎𝙏𝙊𝙍𝙈• ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") &&
+            _0x2dfb59[0].includes("𝙑𝙊𝙍𝙏𝙀𝙓𝙎𝙏𝙊𝙍𝙈 • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") &&
             _0x2dfb59[2].includes("Msg_Id")
           ) {
             let _0x1b0d01 = "" + _0x2dfb59[2].replace("*Msg_Id:* ", "").trim();
@@ -585,7 +585,7 @@ smd(
                   _0x2ecd2a.howmanyreply += 1;
                   const _0x5a2204 = _0x2acf30.text.indexOf(",");
                   let _0x3f6b59 =
-                    "*QUEEN_ALYA • ʏᴏᴜʀ ᴀɴᴏɴʏ-ᴍsɢ ʀᴇᴘʟʏ*\n\n*_From @" +
+                    "*𝙑𝙊𝙍𝙏𝙀𝙓𝙎𝙏𝙊𝙍𝙈 • ʏᴏᴜʀ ᴀɴᴏɴʏ-ᴍsɢ ʀᴇᴘʟʏ*\n\n*_From @" +
                     _0x2ecd2a.reciever.split("@")[0] +
                     "_*\n*_Msg_Id: " +
                     _0x2ecd2a.id +
@@ -882,7 +882,7 @@ smd(
 smd(
   {
     pattern: "nikka",
-    desc: "Get a response from NIKKA-AI based on user query.",
+    desc: "Get a response from 𝙎𝙏𝙊𝙍𝙈-AI based on user query.",
     category: "ai",
     filename: __filename,
   },
@@ -921,14 +921,14 @@ smd(
 
       // Construct the final styled message
       const message = `
-*🧠 NIKKA-AI Responds:*
+*🧠 𝙎𝙏𝙊𝙍𝙈 Responds:*
 
 _${resultText}_
 
-*✨ Powered by Haki*`;
+*✨ Powered by MX-GΔMΞCØDΞR*`;
 
       // Define the image URL (replace with your desired image URL)
-      const imageUrl = "https://files.catbox.moe/bh2fpj.jpg"; // Update with your actual image URL
+      const imageUrl = "https://i.imgur.com/INRLrpM.jpeg"; // Update with your actual image URL
 
       // Send the styled response with the image
       await m.send(
@@ -981,7 +981,7 @@ _${resultText}_
       const resultText = data.result; // Extract the text from the result part
 
       // Define your image URL
-      const imageUrl = "https://files.catbox.moe/bh2fpj.jpg"; // Replace with your image URL
+      const imageUrl = "https://i.imgur.com/INRLrpM.jpeg"; // Replace with your image URL
 
       // Combine the result and footer in the message
       const message = `*Response:* \n\n${resultText}\n\n*Powered by Haki*`; // Add footer

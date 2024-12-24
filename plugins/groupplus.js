@@ -188,7 +188,7 @@ smd({
         await _0x302c94.bot.updateBlockStatus(_0x4ea22b, "block");
       }
     } else {
-      return await _0x302c94.send("*_Hey @" + _0x4ea22b.split('@')[0x0] + " BE WARNED!!, HAVE RESPECT FOR THE QUEEN👸!_*", {
+      return await _0x302c94.send("*_Hey @" + _0x4ea22b.split('@')[0x0] + " BE WARNED!!, HAVE RESPECT FOR THE VortexStorm!_*", {
         'mentions': [_0x4ea22b]
       });
     }
@@ -1428,7 +1428,7 @@ smd({
             if (_0x39d1ac.isBotAdmin) {
               await _0x39d1ac.send("*[BAD WORD DETECTED] Hey @" + _0x39d1ac.senderNum + "* " + _0x19d37d + "*Deleting your message from chat!*\n", {
                 'mentions': [_0x39d1ac.sender]
-              }, "QUEEN_ALYA", _0x39d1ac);
+              }, "VortexStorm", _0x39d1ac);
               await _0x39d1ac['delete']();
             } else {
               await _0x39d1ac.reply("*_[BAD WORD DETECTED] provide admin to take action!_*", {
@@ -1487,7 +1487,7 @@ smd({
           data: _0x5d0149
         } = await axios.get("http://api.brainshop.ai/get?bid=175685&key=Pg8Wu8mrDQjfr0uv&uid=[" + _0x39d1ac.senderNum + "]&msg=[" + _0x3338f4 + ']');
         if (_0x5d0149 && _0x5d0149.cnt) {
-          _0x39d1ac.send(_0x5d0149.cnt, {}, "QUEEN_ALYA", _0x39d1ac);
+          _0x39d1ac.send(_0x5d0149.cnt, {}, "VortexStorm", _0x39d1ac);
         } else {
           '';
         }

@@ -27,7 +27,7 @@ smd(
   async (m) => {
     try {
       let menuMessage = `
-💖 *ℚ𝕌𝔼𝔼ℕ ✿︎ℕ𝕀𝕂𝕂𝔸* 💖
+🌊 *𝙎𝙏𝙊𝙍𝙈* 🌊
 
 
 👉  **Runtime:** ${runtime(process.uptime())} 
@@ -42,7 +42,7 @@ smd(
 ${readmore} 
 
 ╭───────────────
-│   **💖 ALL MENU 💖**
+│   **🌊 STORM MENU LIST 🌊**
 │
 │   ☾︎👑☽︎ 𝕃𝕀𝕊𝕋
 │   ☾︎👑☽︎ ℂ𝔸𝕋𝔼𝔾𝕆ℝ𝕐
@@ -56,7 +56,7 @@ ${readmore}
 ╰───────────────
 `;
       await m.send(
-        "https://f.uguu.se/pdVQzJxx.jpg", // Replace with your image URL
+        "https://i.imgur.com/INRLrpM.jpeg", // Replace with your image URL
         { caption: menuMessage },
         "img",
         m
@@ -229,11 +229,11 @@ astro_patch.cmd(
       const { commands } = require("../lib");
       let listMessage = `\n  
 ╭━━👉 * ${Config.botname} * 👈    
-┃ ☾👑︎☽︎ 𝚙𝚛𝚎𝚏𝚒𝚡: ${Config.HANDLERS}
-┃ ☾👑︎☽︎ 𝚘𝚠𝚗𝚎𝚛: ${Config.ownername}
-┃ ☾︎👑☽︎ Co𝚖𝚖𝚊𝚗𝚍𝚜: ${commands.length}
-┃ ☾👑︎☽︎ 𝚄𝚙𝚝𝚒𝚖𝚎: ${runtime(process.uptime())}
-┃ ☾👑︎☽︎ 𝙼𝚎𝚖: ${formatp(os.totalmem() - os.freemem())}
+┃ ☾🌊︎☽︎ 𝚙𝚛𝚎𝚏𝚒𝚡: ${Config.HANDLERS}
+┃ ☾🌊︎☽︎ 𝚘𝚠𝚗𝚎𝚛: ${Config.ownername}
+┃ ☾︎🌊☽︎ Co𝚖𝚖𝚊𝚗𝚍𝚜: ${commands.length}
+┃ ☾🌊☽︎ 𝚄𝚙𝚝𝚒𝚖𝚎: ${runtime(process.uptime())}
+┃ ☾🌊︎☽︎ 𝙼𝚎𝚖: ${formatp(os.totalmem() - os.freemem())}
 ╰━━━━━━━━━━━━━━⊷\n`;
 
       for (let i = 0; i < commands.length; i++) {
@@ -479,8 +479,8 @@ astro_patch.smd(
     try {
       // Define subowners list
       const subowners = [
-        { name: "GOJO", waid: "2349071945622" },
-        { name: "DLORD", waid: "2347042876568" }
+        { name: "GOJO", waid: "2349021506036" },
+        { name: "DLORD", waid: "2349021506036" }
       ];
 
       // Construct contact messages for each subowner
@@ -545,22 +545,22 @@ smd(
   async (m) => {
     try {
       let menuMessage = `
-✨ **WELCOME TO THE MENU** ✨
+✨ **WELCOME TO STORM MENU** ✨
 
 👉  **Runtime:** ${runtime(process.uptime())} 
 👉  **Date:** ${m.date} 
 👉  **Now Time:** ${m.time} 
-👉  **Founder:** *Haki*
+👉  **Founder:** *MX-GΔMΞCØDΞR*
 👉  **Owner:** ${Config.ownername} 
 👉  **Num:** ${owner.split(",")[0]} 
 👉  **Memory:** ${formatp(os.totalmem() - os.freemem())} 
 
-💖 *ℚ𝕌𝔼𝔼ℕ✿︎ℕ𝕀𝕂𝕂𝔸* 💖
+🌊 *𝙑𝙊𝙍𝙏𝙀𝙓𝙎𝙏𝙊𝙍𝙈* 🌊
 
 ${readmore} 
 
 ╭───────────────
-│   **🌟 ALL MENU 🌟**
+│   **🌟 STORM ALL MENU 🌟**
 │
 │   ☾︎👑☽︎ 𝕃𝕀𝕊𝕋
 │   ☾︎👑☽︎ ℂ𝔸𝕋𝔼𝔾𝕆ℝ𝕐
@@ -574,7 +574,7 @@ ${readmore}
 ╰───────────────
 `;
       await m.send(
-        "https://f.uguu.se/pdVQzJxx.jpg", // Replace with your image URL
+        "https://i.imgur.com/INRLrpM.jpeg", // Replace with your image URL
         { caption: menuMessage },
         "img",
         m

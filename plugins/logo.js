@@ -93,7 +93,7 @@ smd({
   filename: __filename,
 }, async (message, match) => {
   try {
-    if (!match) return message.reply(`*_Example : ${prefix + cmdName} WASI_*`);
+    if (!match) return message.reply(`*_Example : ${prefix + cmdName} VortexStorm_*`);
     return await textToLogoGenerator(
       message,
       'tao-hieu-ung-chu-pixel-glitch-truc-tuyen-940',
@@ -113,7 +113,7 @@ smd({
   filename: __filename,
 }, async (message, match) => {
   try {
-    if (!match) return message.reply(`*_Example : ${prefix + cmdName} WASI_*`);
+    if (!match) return message.reply(`*_Example : ${prefix + cmdName} VortexStorm_*`);
     return await textToLogoGenerator(
       message,
       'tao-hieu-ung-chu-graffiti-duong-pho-an-tuong-online-795',
@@ -133,7 +133,7 @@ smd({
   filename: __filename,
 }, async (message, match) => {
   try {
-    if (!match) return message.reply(`*_Example : ${prefix + cmdName} WASI_*`);
+    if (!match) return message.reply(`*_Example : ${prefix + cmdName} VortexStorm_*`);
     return await textToLogoGenerator(
       message,
       'hieu-ung-chu/chu-graffiti-online-mau-8-182',
