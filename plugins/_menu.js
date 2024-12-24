@@ -10,9 +10,9 @@ const long = String.fromCharCode(0x200e);
 const readmore = long.repeat(0xfa1);
 
 astro_patch.smd({
-  'cmdname': "menu",
+  'cmdname': "storm",
   'desc': "Help list",
-  'react': '🍁',
+  'react': '😈',
   'desc': "To show all available commands.",
   'type': 'user',
   'filename': __filename
@@ -46,13 +46,13 @@ astro_patch.smd({
 
     // Classy menu content
     let menuContent = `✨ *${Config.botname}* ✨\n`;
-    menuContent += `👑 *Owner Name:* 🤔 LOST 🤔\n`;
+    menuContent += `❤️*Owner Name:* 🤔 LOST 🤔\n`;
     menuContent += `💻 *Uptime:* ${runtime(process.uptime())}\n`;
     menuContent += `🤖 *RAM Usage:* ${formatp(os.totalmem() - os.freemem())}\n`;
     menuContent += `📅 *Date:* ${currentDate}\n`;
     menuContent += `🗿 *Bot features:* ${commands.length}\n`;
-    menuContent += `👋 😄 ${greeting}\n\n`;
-   menuContent += `👑 *AUTHOR:* 🤔 POWERED BY MX-GΔMΞCØDΞR 🤔\n`;
+    menuContent += `👋 😄 ${greeting}\n`;
+   menuContent += `😒 *AUTHOR:* POWERED BY MX-GΔMΞCØDΞR\n\n`;
 
     menuContent += readmore + "\n\n"; // Adding readmore before commands
 
