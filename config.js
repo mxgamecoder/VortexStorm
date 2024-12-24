@@ -6,8 +6,8 @@ global.audio = "www.youtube.com";
 global.video = "www.youtube.com";
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
-global.email = "damilaraolamilekan4@gmail.com";
-global.location = "Imo, Nigeria";
+global.email = "damilaraolamilekan24@gmail.com";
+global.location = "Lagos, Nigeria";
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://mxgamecoder:mxgamecoder@cluster0.n4qgy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 global.allowJids = process.env.ALLOW_JID || "true";
 global.blockJids = process.env.BLOCK_JID || "null";
@@ -32,7 +32,7 @@ global.waPresence = process.env.WAPRESENCE || "available";
 global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
-global.read_status = process.env.AUTO_READ_STATUS || "false";
+global.read_status = process.env.AUTO_READ_STATUS || "true";
 global.save_status = process.env.AUTO_SAVE_STATUS || "false";
 global.save_status_from = process.env.SAVE_STATUS_FROM || "";
 global.read_status_from = process.env.READ_STATUS_FROM || "";
@@ -41,13 +41,14 @@ global.api_smd = "https://api-smd-1.vercel.app";
 global.scan = "https://nikkapair.onrender.com/pair";
 
 global.SESSION_ID =
-  process.env.SESSION_ID || "" // session id here
+  process.env.SESSION_ID ||
+  "" // session id here
 module.exports = {
   menu: process.env.MENU || "2",
   HANDLERS: process.env.PREFIX || ",",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "`VortexStorm™`",
+  caption: process.env.CAPTION || "`MX-GΔMΞCØDΞR™`",
   author: process.env.PACK_AUTHER || "MX-GΔMΞCØDΞR",
   packname: process.env.PACK_NAME || "MX-GΔMΞCØDΞR",
   botname: process.env.BOT_NAME || "VortexStorm",

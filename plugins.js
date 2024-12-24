@@ -1,3 +1,5 @@
+//THE THIEF KING 👑
+//THE THIEF KING 👑
 const fs = require('fs');
 const path = require('path');
 const directoryPath = '../plugins';

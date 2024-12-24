@@ -1,3 +1,5 @@
+//THE THIEF KING 👑
+//THE THIEF KING 👑
 const bot = require(__dirname + "/lib/amd");
 const {
   VERSION
