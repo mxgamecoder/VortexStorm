@@ -52,12 +52,13 @@ astro_patch.smd({
     menuContent += `📅 *Date:* ${currentDate}\n`;
     menuContent += `🗿 *Bot features:* ${commands.length}\n`;
     menuContent += `👋 😄 ${greeting}\n\n`;
+   menuContent += `👑 *AUTHOR:* 🤔 POWERED BY MX-GΔMΞCØDΞR 🤔\n`;
 
     menuContent += readmore + "\n\n"; // Adding readmore before commands
 
     // List commands by category
     for (const category in commandCategories) {
-      menuContent += `✿❯─「✿ ${tiny(category)} ✿」─❮✿\n`; // Decorative line with category inside
+      menuContent += `😊❯─「😊 ${tiny(category)} 😎」─❮😎\n`; // Decorative line with category inside
       commandCategories[category].forEach(cmd => {
         menuContent += `|🌊|  ${fancytext(cmd, 1)}\n`; // Changed emoji here
       });
